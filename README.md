@@ -15,10 +15,6 @@
 *   **Intuitive Dual-Language Integration:** Fully English-first UI with toggle-ready local translation support to guide buyers, sellers, and agents step-by-step.
 *   **Sovereign MPIN Security:** Protect accounts using custom mobile PIN protection, robust security questions, and cryptographically generated session keys.
 
-### 💬 Unofficial WhatsApp API Gateway (Low-Cost SMTP-Free OTP)
-*   **WhatsApp OTP Support:** Fast, native, and highly budget-friendly OTP delivery on mobile numbers using unofficial gateways (such as UltraMsg, local Node instances, or dynamic custom webhooks).
-*   **Visual Sandbox Overlay:** No active WhatsApp API credentials configured? The system automatically triggers the built-in sandbox simulator, displaying generated OTP keys instantly on-screen for frictionless development and client-side testing.
-
 ### 🤝 Robust Escrow Mechanism
 *   **Smart Dispute Resolution:** Real-time state management representing buyers, sellers, and neutral dispute administrators.
 *   **Transaction Lifecycles:** Funds remain safely locked in escrow until the inspection period expires or the buyer confirms successful delivery.
@@ -136,4 +132,27 @@ We welcome contributions from software engineers, FinTech experts, and designers
 
 ---
 
-<p align="center">Made with ❤️ for the Digital Escrow Ecosystem.</p>
+<p align="center">Made with ❤️ for the PK Digital Escrow Ecosystem.</p>
+
+
+PK Escrow — Project One-Pager
+​1. The Hook 
+"A secure peer-to-peer (P2P) digital escrow platform designed to eliminate fraud and build absolute trust between online buyers and sellers across Pakistan."
+​2. The Problem: 
+"There's a big trust deficit in online peer-to-peer (P2P) buying, selling, and freelancing. Buyers worry that the seller might block them after sending the money, and sellers worry that the buyer might not pay after receiving the work/product.".
+​Trust Deficit: There isn't any easy and secure third-party escrow system in the market that an average user can use without going through complicated verification..
+​Financial Loss:Every year thousands of people fall victim to online scams because there’s no security with advance payments..
+​3. The Solution: 
+The buyer's money stays in your secure wallet until the seller delivers the product. 
+Milestone-Based Release: As soon as delivery is confirmed, the funds automatically get transferred to the seller. If there's a scam, you can raise a dispute and get a refund.
+​We have made a smart escrow application that acts as a 'Trusted Middleman' between the buyer and the seller.
+​Escrow Logic: The buyer's money stays in your secure wallet until the seller delivers the product. 
+Milestone-Based Release: As soon as delivery is confirmed, the funds automatically get transferred to the seller. If there's a scam, you can raise a dispute and get a refund.
+​4. Technical Architecture & Tech Stack
+​"PK Escrow is a secure peer-to-peer (P2P) digital escrow platform built with React, Node.js, Express, and Firebase/Firestore that eliminates online buyer-seller fraud in Pakistani e-commerce through safe ledger lifecycles and highly hardened cybersecurity verification protocols."
+​5. Current Status (The MVP is Live!)
+​We have fully prepared its working prototype (MVP). Core flow is working: user registration, escrow wallet creation, database read/write logic, and the basic transaction state machine are all fully functional.
+​6. The Request:
+​We are looking for funding, grants, or cloud credits to scale this project so that:
+Database & Servers: We can buy backend hosting and production-grade database limits to handle live traffic.
+Security Audits: Since it's a fintech application, we can further tighten database security.
